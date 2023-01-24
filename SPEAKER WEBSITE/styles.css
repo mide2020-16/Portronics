@@ -244,6 +244,7 @@ header #speaker{
     box-shadow: 0px 4px 8px rgb(107, 107, 106);
     display: none;
     transition: ease .5s;
+    display: block;
   }
   .sidebar ul li a{
     list-style: none;
@@ -287,6 +288,7 @@ header #speaker{
     cursor: pointer;
     transition: .3s;
     box-shadow: 0px 4px 8px rgb(107, 107, 106);
+    display: block;
   }
   .menu-toggle i{
     position: absolute;
