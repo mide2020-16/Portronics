@@ -11,12 +11,17 @@ const backgroundColor = document.querySelector('header');
 const toggle = document.querySelector('.menu-toggle');
 
 const sideBar = document.querySelector('.sidebar');
-
+const ul = document.querySelector('ul li'),
+  header = document.querySelector('.content');
 toggle.onclick = () => { 
   sideBar.classList.toggle('active');
 }
-
-
+// ul.addEventListener('click', () => {
+//   sideBar.classList.remove('active');
+// });
+header.onclick = () => { 
+  sideBar.classList.remove('active');
+}
 image[0].onclick = () => {
   speaker.src = "1.png";
   varColor.style.setProperty('--main-colour', '#d1632b');
