@@ -8,15 +8,12 @@ const varColor = document.querySelector(':root');
 
 const backgroundColor = document.querySelector('header');
 
-const toggle = document.querySelector('.menu-toggle'),
-  active = document.querySelector('.active'),
-  closed = document.querySelector('.deactive');
-  const sideBar = document.querySelector('.sidebar');
+const toggle = document.querySelector('.menu-toggle');
+
+const sideBar = document.querySelector('.sidebar');
 
 toggle.onclick = () => { 
   sideBar.classList.toggle('active');
-  active.classList.toggle('deactive');
-  closed.classList.toggle('active');
 }
 
 
